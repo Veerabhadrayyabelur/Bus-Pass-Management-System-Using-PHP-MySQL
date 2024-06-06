@@ -1,0 +1,47 @@
+ How to Run the Bus Pass Management System Using PHP and MySQL
+Follow these steps to set up and run the Bus Pass Management System on your local server:
+
+1. Download the Zip File
+Obtain the zip file containing the Bus Pass Management System project.
+
+2. Extract the File
+Extract the contents of the zip file to your local machine.
+
+3. Copy the buspassms Folder
+Locate the buspassms folder within the extracted files.
+Copy the entire buspassms folder.
+
+4. Paste into the Root Directory
+Paste the buspassms folder into your server's root directory:
+For XAMPP, paste it inside xampp/htdocs
+For WAMP, paste it inside wamp/www
+For LAMP, paste it inside var/www/html
+
+5. Open PHPMyAdmin
+Open your web browser and navigate to PHPMyAdmin.
+
+6. Create a Database
+Create a new database named buspassdb:
+Click on the "New" button in the left sidebar.
+Enter buspassdb as the database name.
+Click on the "Create" button.
+
+7. Import the Database
+Import the buspassdb.sql file into your newly created database:
+Select the buspassdb database from the left sidebar.
+Click on the "Import" tab in the top menu.
+Click on the "Choose File" button and select the buspassdb.sql file located in the SQL file folder inside the extracted project files.
+Click on the "Go" button to import the database structure and data.
+
+8. Run the Script
+Open your web browser and navigate to http://localhost/buspassms.
+
+You should now see the Bus Pass Management System login page.
+
+Admin Credentials
+Use the following credentials to log in as an admin:
+Username: admin
+Password: Test@123
+Additional Information
+
+Pass Number: You can use the pass number 681924385 or create a new pass using the system interface.
